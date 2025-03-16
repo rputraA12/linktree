@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+main{
+    width: 100%;
+    height: 100vh;
+}
+.bg{
+    background-image: url(img/salju.png);
+    width: auto;
+    height:110vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main{
+    height: 110vh;
+}
+.logo{
+    text-align: center;
+    padding-top: 3rem;
+}
+.logo img{  
+    width: 230px;
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+}
+nav ul li{
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    background-color: #5f8db1;
+    border-radius: 1rem;
+    box-shadow: -10px 10px 1rem aliceblue;
+    margin: 10px 20px;
+}
+nav ul li a{
+    font-size: 1.3rem;
+    color: aliceblue;
+}
+.footer {
+    background-color: #5f8db1; /* Warna latar belakang gelap */
+    color: #fff; /* Warna teks putih */
+    text-align: center; /* Teks di tengah */
+    padding: 25px 0 30px; /* Jarak dalam */
+    font-size: 14px; /* Ukuran teks */
+}
+.prev {
+    position: relative;
+    top: 1.5rem;
+    left: 0.5rem;
+}
+.prev a  {
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 50%;
+    color: #5f8db1;
+}

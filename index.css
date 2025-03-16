@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+img{
+    width: 200px;
+    margin-bottom: 1rem;
+}
+a{
+    background: #5f8db1;
+    color: white;
+    padding: 5px 80px;
+    box-shadow: -5px 5px 1rem #5f8db1;
+    border-radius: 1rem;
+}
+main{
+    background: red;
+    width: 100%;
+}
